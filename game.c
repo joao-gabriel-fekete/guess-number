@@ -20,11 +20,10 @@ int main()
 	 int tentativa = 1;
 
 	 double pontos = 1000;
-	 int attemptNumber= 5
 
 
-	 for (int i = 0; i < count; ++i)
-	 {
+	 while(ganhou == 0) {
+
 		 int guess;
 
 
@@ -72,4 +71,3 @@ int main()
 	 
 
 }
-
